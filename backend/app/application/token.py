@@ -24,3 +24,18 @@ def verify_token(token: str, credentials_exception):
         token_data = schemas.TokenData(email=email)
     except JWTError:
         raise credentials_exception
+
+
+#Gooogle Custom Search API
+#API = "AIzaSyCDuGaIhulAulTrBbSmCX_Gj3p5xAMvhhQ"
+#CX = "988531739927-2rhf9cak2prr573tgeo0pnnfalovqd8l.apps.googleusercontent.com"
+
+#Github API
+#Client Secret: 2be887d85ae26258fd533ba2e8a54631da6f520e
+#Client ID: Iv1.5a66d2b1db3cc008
+#App ID: 288407
+
+#LinkedIn API
+#Client Secret: zvIkzLBTNhi7tEo0
+#Client ID: 77dcxcv8614d11
+
