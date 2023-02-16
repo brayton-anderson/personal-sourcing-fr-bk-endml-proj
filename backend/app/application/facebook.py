@@ -1,3 +1,5 @@
+import requests
+import json
 # Facebook API
 def get_facebook_info(facebook_id):
     api_endpoint = "https://graph.facebook.com/"
